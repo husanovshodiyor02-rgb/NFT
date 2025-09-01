@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;800;900&display=swap');
+
+
+:root {
+    --font-family: "Space Mono", sans-serif;
+    --second-family: "Work Sans", sans-serif;
+
+	--background: #2b2b2b;
+	--background---secondary: #3b3b3b;
+	--caption-label-text: #858584;
+	--text: #fff;
+	--call-to-action: #a259ff;
+	--blue-accent: #377df7;
+	--red-accent: #ff7262;
+}
+
+body{
+    background: var(--background);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+li{
+    list-style: none;
+}
+.title{
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 22px;
+line-height: 160%;
+text-transform: capitalize;
+color: var(--text);
+}
+.title2{
+    font-family: var(--second-family);
+font-weight: 600;
+font-size: 38px;
+line-height: 120%;
+text-transform: capitalize;
+color: var(--text);
+}
+
+.parag{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: var(--text);
+}
