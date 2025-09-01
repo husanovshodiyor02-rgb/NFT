@@ -237,5 +237,80 @@ li {
     overflow-y: hidden;
   }
 }
+.creat {
+  margin-top: 50px;
+}
+.creat .creat_top {
+  display: flex;
+  justify-content: space-between;
+}
+.creat button {
+  margin-top: 10px;
+  border: 2px solid var(--call-to-action);
+  border-radius: 20px;
+  padding: 0px 50px;
+  width: 247px;
+  height: 60px;
+  background-color: var(--background);
+  font-family: var(--second-family);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  color: var(--text);
+}
+.creat .grid {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+.creat .grid .grid_1 {
+  border-radius: 20px;
+  padding: 20px;
+  width: 240px;
+  height: 238px;
+  background: var(--background---secondary);
+}
+.creat .grid .nomer {
+  border-radius: 20px;
+  width: 30px;
+  height: 30px;
+  background: var(--background);
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  color: var(--caption-label-text);
+}
+.creat .crimg {
+  text-align: center;
+}
+.creat .crimg img {
+  width: 110px;
+  height: 120px;
+}
+.creat .crimg p {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: right;
+  color: var(--caption-label-text);
+}
+.creat .crimg span {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: var(--text);
+}
+
+@media (max-width: 800px) {
+  .grid {
+    overflow-y: hidden;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
