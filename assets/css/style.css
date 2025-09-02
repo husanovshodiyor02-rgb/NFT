@@ -312,5 +312,41 @@ li {
     overflow-y: hidden;
   }
 }
+.browse h1 {
+  font-family: var(--second-family);
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 120%;
+  text-transform: capitalize;
+  color: var(--text);
+  padding: 80px 0 60px 0;
+}
+.browse .brow {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+.browse .brow .brow1 {
+  border-radius: 20px;
+  width: 240px;
+  height: 316px;
+  background: var(--background---secondary);
+}
+.browse .brow .brow1 h2 {
+  font-family: var(--second-family);
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 140%;
+  text-transform: capitalize;
+  color: var(--text);
+  padding: 15px 30px;
+}
+
+@media (max-width: 600px) {
+  .brow {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
