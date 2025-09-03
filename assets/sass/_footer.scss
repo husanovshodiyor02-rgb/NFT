@@ -1,0 +1,58 @@
+.futer{
+    padding: 50px 0 30px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+p{
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+color: #ccc;
+}
+
+.ft{
+    display: flex;
+ 
+
+input{
+    border: none;
+    border-radius: 20px;
+    padding: 16px 0px 16px 20px;
+    width: 420px;
+    height: 60px;
+    background: var(--text);
+}
+button{
+    position: absolute;
+    left: 1240px;
+    border: none;
+    border-radius: 20px;
+padding: 0px 50px;
+width: 179px;
+height: 60px;
+background: var(--call-to-action);
+font-family: var(--second-family);
+font-weight: 600;
+font-size: 16px;
+line-height: 140%;
+text-align: center;
+color: var(--text);
+}
+}
+}
+.ftp{
+    padding: 30px 0;
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 12px;
+line-height: 110%;
+color: #ccc;
+}
+
+@media(max-width:800px){
+    .futer{
+        grid-template-columns: 1fr;
+        flex-direction: column
+    }
+}
